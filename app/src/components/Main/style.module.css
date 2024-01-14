@@ -1,0 +1,52 @@
+
+.container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+}
+.descr{
+    display: flex;
+    flex-direction: column;
+}
+.descr h1{
+    font-size: 18px;
+}
+.main img{
+   width: 100%;
+   height: 400px;
+   object-fit: contain;
+}
+.btns{
+    transform: rotate(-90deg) translateY(100%);
+}
+.btns button{
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+    color: #828282;
+    cursor: pointer;
+    transition: color 0.5s, font-size 0.5s;
+}
+.btns button:hover{
+    color: black;
+    font-size: 20px;
+}
+
+@media (max-width:700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btns{
+        display: none;
+    }
+   
+}

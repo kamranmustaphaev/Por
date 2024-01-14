@@ -1,0 +1,19 @@
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F6F6F6;
+    padding: 120px 0;
+    
+}
+.aboutMe h2{
+    font-size: 34px;
+}
+.aboutMe p{
+    font-size: 18px;
+    color: #070707;
+    max-width: 480px;
+    text-align: center;
+}
